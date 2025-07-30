@@ -60,14 +60,14 @@ export const sources = {
   domBlockers: getDomBlockers,
   fontPreferences: getFontPreferences,
   audio: getAudioFingerprint,
-  screenFrame: getScreenFrame,
+  //screenFrame: getScreenFrame,
 
-  canvas: getCanvasFingerprint,
+  //canvas: getCanvasFingerprint,
   osCpu: getOsCpu,
   languages: getLanguages,
   colorDepth: getColorDepth,
   deviceMemory: getDeviceMemory,
-  screenResolution: getScreenResolution,
+  //screenResolution: getScreenResolution,
   hardwareConcurrency: getHardwareConcurrency,
   timezone: getTimezone,
   sessionStorage: getSessionStorage,
@@ -99,8 +99,8 @@ export const sources = {
 
   // Some sources can affect other sources (e.g. WebGL can affect canvas), so it's important to run these sources
   // after other sources.
-  webGlBasics: getWebGlBasics,
-  webGlExtensions: getWebGlExtensions,
+  //webGlBasics: getWebGlBasics,
+  //webGlExtensions: getWebGlExtensions,
 }
 
 /**
